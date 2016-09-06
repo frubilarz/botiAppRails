@@ -1,0 +1,10 @@
+
+postgres:
+  image: postgres:9
+  environment:
+    POSTGRES_USER: boti
+    POSTGRES_PASSWORD: boti.
+  volumes:
+    - ./docker-data/postgres:/var/lib/postgresql/data
+  ports:
+    - "5432:5432"

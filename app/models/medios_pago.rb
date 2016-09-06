@@ -1,0 +1,2 @@
+class MediosPago < ApplicationRecord
+end

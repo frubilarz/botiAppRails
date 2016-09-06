@@ -1,0 +1,2 @@
+class GlosaPatente < ApplicationRecord
+end
