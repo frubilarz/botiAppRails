@@ -422,3 +422,8 @@ Comuna.create(nombre: 'San Joaquín',provincia_id: ( Provincia.find_by_nombre('S
 Comuna.create(nombre: 'San Ramón',provincia_id: ( Provincia.find_by_nombre('Santiago')).id)
 Comuna.create(nombre: 'Santiago',provincia_id: ( Provincia.find_by_nombre('Santiago')).id)
 Comuna.create(nombre: 'Vitacura',provincia_id: ( Provincia.find_by_nombre('Santiago')).id)
+
+MediosPago.create(nombre: "Efectivo")
+MediosPago.create(nombre: "Debito")
+MediosPago.create(nombre: "Credito")
+MediosPago.create(nombre: "Cheque")
